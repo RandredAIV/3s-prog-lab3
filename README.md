@@ -29,13 +29,14 @@
 │   └── test.cpp           # Юнит-тесты (GoogleTest)  
 └── Makefile               # Сборка и генерация отчёта покрытия  
 ```
-### Go  
+### Go 
+```
 └── GO/  
     ├── main.go                  # Точка входа  
     └── hashtable/  
         ├── hashtable.go         # Реализация хеш-таблицы  
         └── hashtable_test.go    # Юнит-тесты  
-
+```
 ## Язык программирования
 C++, Go
 
@@ -77,6 +78,8 @@ report generation.
 
 ## File Structure
 ### C++  
+```
+
 ├── libs/  
 │   ├── hash_table.h       # Hash table  
 │   ├── listD.h            # Doubly linked list  
@@ -88,14 +91,16 @@ report generation.
 ├── tests/  
 │   └── test.cpp           # Unit tests (GoogleTest)  
 └── Makefile               # Build and coverage report generation  
+```
+### Go
+```
 
-### Go  
 └── GO/
     ├── main.go                  # Entry point  
     └── hashtable/  
         ├── hashtable.go         # Hash table implementation  
         └── hashtable_test.go    # Unit tests  
-
+```
 ## Language
 C++, Go
 
