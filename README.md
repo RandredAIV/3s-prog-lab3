@@ -44,18 +44,18 @@ C++, Go
 g++ test.cpp -lgtest -lgtest_main -pthread -std=c++17 -o test_res
 
 ### C++ — генерация HTML-отчёта о покрытии (выполнять из папки Lab3/)
-make
-make coverage
-cd out
-xdg-open index.html
+make  
+make coverage  
+cd out  
+xdg-open index.html  
 
 ### Go — запуск основной программы (выполнять из папки Lab3/)
 go run main.go
 
 ### Go — запуск тестов и генерация HTML-отчёта о покрытии (выполнять из папки hashtable/)
-go test -v -coverprofile=cover.out
-go tool cover -html=cover.out -o cover.html
-xdg-open cover.html
+go test -v -coverprofile=cover.out  
+go tool cover -html=cover.out -o cover.html  
+xdg-open cover.html  
 
 ---
 # EN
@@ -101,18 +101,18 @@ C++, Go
 ## How to Run
 
 ### C++ — run tests (execute from the tests/ directory)
-g++ test.cpp -lgtest -lgtest_main -pthread -std=c++17 -o test_res
+g++ test.cpp -lgtest -lgtest_main -pthread -std=c++17 -o test_res  
 
 ### C++ — generate HTML coverage report (execute from the Lab3/ directory)
-make
-make coverage
-cd out
-xdg-open index.html
+make  
+make coverage  
+cd out  
+xdg-open index.html  
 
 ### Go — run main program (execute from the Lab3/ directory)
-go run main.go
-
+go run main.go  
+  
 ### Go — run tests and generate HTML coverage report (execute from the hashtable/ directory)
-go test -v -coverprofile=cover.out
+go test -v -coverprofile=cover.out  
 go tool cover -html=cover.out -o cover.html
 xdg-open cover.html
